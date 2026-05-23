@@ -58,4 +58,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: abhidocker4900/pyflaskcicd:latest     
+          tags: abhidocker4900/pythonflaskcicd:latest     
