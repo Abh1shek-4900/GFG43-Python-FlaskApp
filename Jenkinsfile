@@ -1,5 +1,5 @@
 pipeline { //pipeline
-    agent {label "python-worker1-ec2" }
+    agent {label "runners" }
     stages { //collection of stages
         stage("Deploy the app in dev env"){ // job1
             steps {
