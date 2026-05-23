@@ -9,7 +9,6 @@ def create_app():
     def home():
         print("inside home function")
         return 'Hi hi GFG43 25th april 2026 123456'
-
     return app
 
 
