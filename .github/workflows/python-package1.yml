@@ -75,6 +75,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         
   docker-image-build:
+    needs: sonarqube-analysis
     runs-on: ubuntu-latest
     steps:
       -
